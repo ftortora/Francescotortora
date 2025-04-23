@@ -1,0 +1,20 @@
+body{
+width: 100%;
+margin: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse:separate;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 3px solid #a29999;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #d1c2c2;
+}
+.bx{
+background-size: 10px;}
