@@ -1,0 +1,164 @@
+body{
+margin: 0;
+font-family: "Montserrat", sans-serif;
+}
+
+
+.main-section {
+padding: 20px;
+}
+.image-container{
+background-image: url(./countryside-houses-near-idyllic-lake-near-mountains.jpg);
+height: 500px;
+width: 1140px;
+background-repeat: no-repeat ;
+background-size:cover;
+}
+
+a {
+ font-weight: 600;
+ font-style: italic;
+}
+h1 {
+font-size: 64px;
+font-family: "Prata", serif;
+font-weight: 400;
+font-style: normal;
+margin-top: 0;
+margin-bottom: 0;
+}
+h3{
+ font-size: 24px;
+ font-family: "Prata", serif;
+ font-weight: 400;
+ font-style: normal;
+ margin-top: 0;
+ margin-bottom: 0;
+}
+ h6{
+ padding: 22px;
+ margin-bottom:0px ;
+ margin-top: 56px;
+ color: white;
+ border-radius: 6px;
+ background-image: linear-gradient(to bottom,rgb(37 35 21), rgb(53 72 99));
+}
+ul {
+ list-style-type: none; 
+ padding-left: 0;      
+ margin-left: 0;  
+
+}
+
+li{
+font-weight: 700;
+padding-top: 6px;
+padding-bottom: 6px;
+border-bottom: 1px;
+color: #dfdfdf;
+}
+ .deco{
+ text-decoration: none;
+ color: rgb(37 35 21);
+ padding: 15px 25px; 
+}
+
+.site-footer-split {
+ background-color: black;
+ color: #e0e0e0;
+ padding: 15px 25px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 10px;
+}
+
+.footer-left {
+
+}
+
+.footer-right {
+ text-align: right;
+}
+
+.site-footer-split p {
+ margin: 0;
+}
+
+.site-footer-split a {
+ color: #cccccc;
+ text-decoration: none;
+ margin-left: 10px;
+}
+
+.site-footer-split .footer-right a:first-child {
+  margin-left: 0;
+}
+
+.site-footer-split a:hover {
+ color: white;
+ text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+ .site-footer-split {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 20px 15px;
+ }
+ .footer-left, .footer-right {
+      text-align: center;
+      margin: 5px 0;
+ }
+ .site-footer-split a {
+      margin: 0 5px;
+ }
+}
+
+.page-navigation {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 10px;
+     margin-top: 40px;
+     border-top: 1px solid #ddd;
+ }
+ 
+ .page-navigation .nav-link {
+     background-color: rgb(37, 35, 21);
+     color: #f0f0f0;
+     border: 1px solid rgb(53, 72, 99);
+     padding: 12px 24px;
+     text-decoration: none;
+     border-radius: 6px;
+     display: inline-block;
+     font-weight: bold;
+     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+ }
+ 
+ .page-navigation .nav-link:hover {
+     background-color: rgb(53, 72, 99);
+     color: white;
+     border-color: rgb(70, 95, 130);
+     cursor: pointer;
+ }
+ 
+ .page-navigation .nav-link.disabled {
+     background-color: #4a4a4a;
+     color: #999;
+     border-color: #666;
+     pointer-events: none;
+     cursor: default;
+ }
+ 
+ @media (max-width: 600px) {
+     .page-navigation {
+         padding: 15px 5px;
+     }
+     .page-navigation .nav-link {
+         padding: 10px 15px;
+         font-size: 0.9em;
+     }
+ }
